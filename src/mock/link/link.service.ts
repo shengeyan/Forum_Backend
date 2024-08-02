@@ -24,7 +24,8 @@ export class ServiceData {
         Name: 'Drive_FLY',
         BLOG: 'https://blog.drivefly.cn',
         Github: 'https://github.com/DriveFLY',
-        AvatarURL: '',
+        AvatarURL:
+          'https://raw.githubusercontent.com/shengeyan/image/master/imgxq.png',
       },
     ];
     return {
