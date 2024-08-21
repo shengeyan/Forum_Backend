@@ -7,12 +7,14 @@ async function bootstrap() {
 
   // 配置 CORS
   const corsOptions: CorsOptions = {
-    origin: 'http://localhost:5173', // 允许的前端地址
+    origin: 'http://localhost:5173',
+    // origin: 'http://forum.tuanwo.cn',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   };
   app.enableCors(corsOptions);
 
   await app.listen(3001);
+  // await app.listen(3002);
 }
 bootstrap();
