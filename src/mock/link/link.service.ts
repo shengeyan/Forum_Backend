@@ -27,6 +27,13 @@ export class ServiceData {
         AvatarURL:
           'https://raw.githubusercontent.com/shengeyan/image/master/imgxq.png',
       },
+      {
+        Name: 'Drive_FLY',
+        BLOG: 'https://xszhangxiaocuo.github.io/',
+        Github: 'https://github.com/xszhangxiaocuo',
+        AvatarURL:
+          'https://raw.githubusercontent.com/xszhangxiaocuo/picBed/refs/heads/master/picBed/hoshino.png',
+      },
     ];
     return {
       success: true,
